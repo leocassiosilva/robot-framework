@@ -1,0 +1,22 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Relatórios gerados pelo Robot Framework
+output.xml
+log.html
+report.html
+results/
+selenium-screenshot-*.png
+
+# Python
+__pycache__/
+*.pyc
+
+# Credenciais e configurações locais
+.aws/
+.env
+
+# Editores
+.vscode/
+.idea/
