@@ -31,7 +31,28 @@ ${variavel3}    bicicleta
 *** Keywords ***
 
 *** Test Cases ***
-Teste Fake
+
+Meu primeiro caso de teste 
+    Open Browser    browser=chrome    url=https://demoqa.com/automation-practice-form
+    # Sleep    time_=10s
+    Input Text    id=firstName    ${variavel}
+    Sleep    time_=10s
+
+Meu Segundo caso de teste
+    Open Browser    browser=chrome    url=https://demoqa.com/automation-practice-form
+    # Sleep    time_=10s
+    Input Text    id=firstName    ${variavel2}
+    Sleep    time_=10s
+
+
+Meu Terceiro caso de teste
+    Open Browser    browser=chrome    url=https://demoqa.com/automation-practice-form
+    # Sleep    time_=10s
+    Input Text    id=firstName    ${variavel3}
+    Sleep    time_=10s
+    
+
+# Teste Fake
     # Log To Console   {"mensagem": "Teste Fake", "variavel": "${variavel}"}
     # Log To Console   {"mensagem": "Teste Fake", "variavel": "${variavel2}"}
     # Log To Console   {"mensagem": "Teste Fake", "variavel": "${variavel3}"}
@@ -41,4 +62,4 @@ Teste Fake
     # Log To Console     ${lista2}
     # Log To Console     ${dicionario}
     # Log To Console     ${dicionario.chave}
-    Log To Console     ${pessoa.nome}
+    # Log To Console     ${pessoa.nome}
