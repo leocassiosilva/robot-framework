@@ -35,9 +35,9 @@ Abrindo o navegador e acessar site
 
 Escrever o nome no campo no campo first name
     Input Text    id=firstName    ${variavel2}
-    Aguardando 5 segundos e fracha o navegador
+    Aguardando 5 segundos e fecha o navegador
 
-Aguardando 5 segundos e fracha o navegador
+Aguardando 5 segundos e fecha o navegador
     Sleep    time_=5s
     Close Browser
 
